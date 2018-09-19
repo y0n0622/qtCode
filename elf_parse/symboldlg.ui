@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SymbolDlg</class>
+ <widget class="QDialog" name="SymbolDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>860</width>
+    <height>557</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>860</width>
+    <height>557</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ELF符号表</string>
+  </property>
+  <widget class="QTableWidget" name="tableSymbol">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>861</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="selectionBehavior">
+    <enum>QAbstractItemView::SelectRows</enum>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>150</number>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>序号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>符号名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>符号值</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>符号大小</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>符号类型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>绑定</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>符号显示</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section索引</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StringDlg</class>
+ <widget class="QDialog" name="StringDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>860</width>
+    <height>557</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>860</width>
+    <height>557</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ELF串表</string>
+  </property>
+  <widget class="QTextEdit" name="textEditString">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>860</width>
+     <height>557</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>860</width>
+     <height>557</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>860</width>
+     <height>557</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
